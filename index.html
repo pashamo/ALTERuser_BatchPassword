@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<htmL>
+    <head>
+        <title>Alter Password batch</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <h1>Alter User - Password</h1>
+        <h4>Standard Edition</h4>
+        <hr>
+
+        <form>
+            <textarea id="input" rows="30" cols="80">Input...</textarea>
+            <br>
+            Password:<input id="pwd" type="text">
+            <input id="btn" type="button" value="Generate Script" onclick="stringParser()">
+        </form>
+        <hr>
+
+        <p id="data"></p>
+        <h3>--ALTER CMD</h3>
+        <p id="alterCMD"></p>
+
+    </body>
+</html>
